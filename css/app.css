@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.game-over {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  background-color: darkorchid;
+  text-align: center;
+  top: 100px;
+  left: 60px;
+  display: none;
+  border-radius: 10PX;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.game-done {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  background-color: #c5131c;
+  text-align: center;
+  top: 100px;
+  left: 60px;
+  display: none;
+  border-radius: 10PX;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+/* span::after {
+  background-color: attr(data-color);
+} */
+
+.magenta {
+  background-color: magenta !important;
+}
